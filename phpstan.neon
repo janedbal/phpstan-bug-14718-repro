@@ -1,0 +1,7 @@
+parameters:
+    level: 8
+    treatPhpDocTypesAsCertain: true
+    editorUrl: 'editor://%%file%%:%%line%%'
+    paths:
+        - trait.php
+        - user.php
