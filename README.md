@@ -1,5 +1,8 @@
 # PHPStan 2.2 — trait `@phpstan-ignore` ignored + wrong editor URL
 
+> [!CAUTION]
+> This issue is fixed [in PHPStan 2.2.2](https://github.com/phpstan/phpstan-src/pull/5780).
+
 Minimal reproduction for **[phpstan/phpstan#14718](https://github.com/phpstan/phpstan/issues/14718)** ("Some `@phpstan-ignore` are ignored in traits since v2.2.0").
 
 Since 2.2.0, an error reported inside a `trait` is attributed to the **trait file** (correct) but
